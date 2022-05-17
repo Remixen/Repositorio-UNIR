@@ -1,14 +1,6 @@
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
-}
-
 body{
     color: black;
-    font-family: 'Calibri'
-
+    font-family: 'Calibri';
 }
 
 header{
@@ -50,12 +42,6 @@ section h3{
 
 section h4{
     font-family: 'calibri light';
-  
-
-
-
-
-
 }
 .content {
     margin: auto;
@@ -88,12 +74,9 @@ nav li a{
 /*--------------------------content------------------------*/
 
 #publicaciones {
-    width: 70%;
-    height: auto; overflow: hidden;
     border-radius: 15px;
-    border: 6px solid # ccc;
+    border: 6px solid #ccc;
     box-shadow: 0px 0px 15px #ccc;
-    margin-top: 80px;
     background: rgb(234, 233, 233);
 }
 
@@ -101,7 +84,7 @@ nav li a{
     width: 100%;
     height: auto; overflow: hidden;
     border-radius: 15px;
-    border: 6px solid # ccc;
+    border: 6px solid #ccc;
     box-shadow: 0px 0px 15px #ccc;
     margin-top: 80px;
     background: rgb(234, 233, 233);
@@ -171,7 +154,7 @@ nav li a{
 #publicaciones .parrafo-post{
     font-family: 'calibri light';
     font-size: 16px;
-    color:black
+    color:black;
     padding: 5px;
 
 
@@ -179,22 +162,19 @@ nav li a{
 }
 
 #sidebar{
-    float: right;
-    width: 400px;
     border: 1px;
-    margin-top: -1000px;
     background: rgb(234, 233, 233);
     border-radius: 10px;
-    border: 6px solid # ccc;
+    border: 6px solid #ccc;
     box-shadow: 0px 0px 15px #ccc;
-    
-
-
+    height: 24rem;
+    width: 24rem;
+    margin-left: 39px;
 }
 
 .aside{
-    float:top;
-    font-family:'calibri light'
+    /*float:top;*/
+    font-family:'calibri light';
     padding: 1px;
     margin-right: 5px;
     margin-left: 5px;
@@ -213,7 +193,7 @@ footer{
     max-width: 100%;
     background: rgb(197, 192, 192);
     border-radius: 0 0 20px 20px;
-    color: #fff
+    color: #fff;
     text-align: center;
     padding: 30px;
     box-sizing: border-box;
